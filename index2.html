@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .card {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .card img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .card-header,
+        .card-body {
+            flex: 1;
+        }
+
+        .card.par {
+            flex-direction: row-reverse;
+        }
+
+        .titulo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .cuerpo {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Card preventa-->
+    <div class="card">
+        <div class="card-header">
+            <img src="https://img.freepik.com/foto-gratis/mujer-alta-vista-trabajando-casa-mirando-graficos_23-2148515975.jpg" alt="">
+        </div>
+        <div class="card-body">
+            <div class="titulo">Pre-venta</div>
+            <div class="cuerpo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, quasi!</div>
+        </div>
+    </div>
+
+    <!-- Card postventa-->
+    <div class="card par">
+        <div class="card-header">
+            <img src="https://img.freepik.com/foto-gratis/mujer-alta-vista-trabajando-casa-mirando-graficos_23-2148515975.jpg" alt="">
+        </div>
+        <div class="card-body">
+            <div class="titulo">Post-venta</div>
+            <div class="cuerpo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, quasi!</div>
+        </div>
+    </div>
+</body>
+</html>
